@@ -16,11 +16,6 @@
     state: present
     update_cache: yes
 
-- name: Install Default Java (Debian/Ubuntu)
-  apt:
-    name: default-jdk
-    state: present
-
 - name: Add tomcat group
   group:
     name: tomcat
